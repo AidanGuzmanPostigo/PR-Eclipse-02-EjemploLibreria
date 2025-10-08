@@ -1,3 +1,3 @@
-## Actividad P1 Tema 2 - Entorno de Desarrollo
+# Actividad P1 Tema 2 - Entorno de Desarrollo
 ---
-#Agregar una librería externa
+## Agregar una librería externa
