@@ -9,5 +9,7 @@ Funcionaría siempre y cuando se descomprima el archivo y se disponga del JRE (e
 Saltan errores cuando se referencia a la librería elminada y no se puede ejecutar, esto ocurre ya que Eclipse no encuentra a la clase que está siendo referenciada en el código.
 
 ## 3. Y si agrego la librería con Add External JARs.... ¿Observas alguna diferencia en la configuración del Build Path? ¿Crees que si lo exporto a .zip y se lo paso a un compañero le funcionaría?
+Una de las principales diferencias es el uso de las rutas, si usamos esta opción, al exportar el proyecto a otro equipo no será posible ejecutar el .jar Eclipse no sería capaz de localizar la librería referenciada, lo que causaría errores de ejecución.
 
 ## 4. ¿Por qué no es recomendable usar Add External JARs… en proyectos que vas a compartir?
+Porque luego el IDE no sería capaz de localizar la librería debido a que es una ruta absoluta. 
