@@ -1,2 +1,3 @@
-# PR-Eclipse-02-EjemploLibreria
-Ejercicio 2 del tema 2 ENTORNO DE DESARROLLO
+## Actividad P1 Tema 2 - Entorno de Desarrollo
+---
+#Agregar una librería externa
